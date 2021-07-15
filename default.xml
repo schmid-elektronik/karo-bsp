@@ -7,6 +7,7 @@
   <remote fetch="git://github.com/openembedded" name="oe"/>
   <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
   <remote fetch="git://github.com/karo-electronics" name="karo"/>
+  <remote fetch="git://github.com/schmid-elektronik" name="obc"/>
 
   <project remote="karo" revision="refs/tags/KARO-2021-06-18" name="poky" path="layers/poky"/>
 
@@ -19,4 +20,5 @@
 
   <project remote="QT5" revision="2b33a5d5e888370bb56685b86aa82b73624f19f0" name="meta-qt5" path="layers/meta-qt5" />
 
+  <project remote="obc" revision="7450bc6ecd9d9964de3d054da6fedf637e630881" name="meta-obc-kernel" path="layers/meta-obc-kernel" />
 </manifest>
