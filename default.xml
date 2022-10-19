@@ -8,6 +8,7 @@
   <remote fetch="https://github.com/meta-qt5"  name="QT5"/>
   <remote fetch="https://github.com/karo-electronics" name="karo"/>
   <remote fetch="https://github.com/schmid-elektronik" name="obc"/>
+  <remote fetch="https://github.com/LairdCP" name="laird"/>
 
   <project remote="karo" revision="refs/tags/KARO-2021-06-18" name="poky" path="layers/poky"/>
 
@@ -20,5 +21,7 @@
 
   <project remote="QT5" revision="2b33a5d5e888370bb56685b86aa82b73624f19f0" name="meta-qt5" path="layers/meta-qt5" />
 
-  <project remote="obc" revision="7450bc6ecd9d9964de3d054da6fedf637e630881" name="meta-obc-kernel" path="layers/meta-obc-kernel" />
+  <project remote="obc" revision="master" name="meta-obc-kernel" path="layers/meta-obc-kernel" />
+
+  <project remote="laird" revision="lrd-9.0.0.x" name="meta-laird-cp" path="layers/meta-laird-cp" />
 </manifest>
